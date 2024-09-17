@@ -1,3 +1,4 @@
+// Define a config object with different parameters
 const config = {
     discProcCode: "value1",
     discPOSEntry: "value2",
@@ -7,4 +8,5 @@ const config = {
     discNRID: "value6"
 };
 
+// Export the config object so it can be imported in other files
 module.exports = config;
