@@ -12,7 +12,7 @@ function checkAndSetParams(params, request = {}) {
 
     // Iterate through each field, checking if param is not null or undefined
     fields.forEach(({ param, field }) => {
-        if (param != null) {
+        if (param !== null) {
             // Add the param to the request object with the corresponding field name
             request[field] = param;
         }
